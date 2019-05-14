@@ -173,13 +173,13 @@ npm install --save-dev dotenv
 ```
 Then create a `.env` file in the root directory of your project and define your a `destinations` environment variable as follows:
 
-```
+``` .env
 destinations=[{"name": "<DESTINATIONNAME>", "url": "<URL to your system>", "username": "<USERNAME>", "password": "<PASSWORD>"}]
 ```
 
 This is what it would look like for the mock server:
 
-```
+``` .env
 destinations=[{"name": "MockServer", "url": "http://localhost:3000"}]
 ```
 
