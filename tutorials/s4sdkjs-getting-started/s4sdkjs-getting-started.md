@@ -88,6 +88,9 @@ npm run start:local
 ```
 
 Go to `http://localhost:8080/hello` and you should get a 'Hello, World!' in response.
+To stop the server again, press `ctrl + c` in your command line.
+Alternatively, you also use `watch:local` instead of `run:local`.
+This will run the server and will automatically restart and update it whenever you change some of the source files.
 
 [DONE][accordion-end]
 
